@@ -35,7 +35,7 @@ function generateQuestions(count, maxOperand) {
   return questions;
 }
 
-const tasks = generateQuestions(60, 20);
+const tasks = generateQuestions(80, 20);
 
 // var currentDate = new Date();
 // var date = currentDate.getDate();
