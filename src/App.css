@@ -32,7 +32,7 @@
 }
 
 .booklet {
-  display: grid;
+  display: none;
   grid-template-rows: repeat(14, auto);
   grid-template-columns: repeat(6, 1fr);
 }
@@ -49,4 +49,17 @@
   border-bottom: 1px solid black;
   width: 2rem;
   height: 2rem;
+}
+
+.wisc {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 220px));
+}
+
+.wisc ul {
+  list-style: none;
+}
+
+.wisc li {
+  margin-bottom: 1rem;
 }
